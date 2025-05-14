@@ -26,7 +26,6 @@ export const Payment = ({
 
   return (
     <div className="flex flex-col space-y-2">
-      <h3 className="text-2xl font-bold ">Payment</h3>
       <PaymentMethods paymentMethods={paymentMethods} />
       <DonationCheckbox
         onChange={updateAgreeToDonate}
